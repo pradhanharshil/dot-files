@@ -129,6 +129,11 @@ alias p=python
 #rclone shortcuts
 alias drive2drive="rclone --drive-server-side-across-configs -P"
 alias d2d=drive2drive
+alias rlsd="rclone lsd"
+alias rls="rclone ls"
+alias rmkdir="rclone mkdir"
+alias rrmdir="rclone rmdir"
+alias rsize="rclone size"
 
 #Environment variables
 export PATH="$PATH:/home/harshil/hp/flutter/bin"
